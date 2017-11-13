@@ -1,0 +1,36 @@
+.container{
+    margin: 50px 50px 50px 50px;
+    border-width: 2px;
+    border: 1px dashed #40A798;
+    padding: 40px 40px 40px 40px;
+    background-color: #F1F1F1;
+}
+p{
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+.img1{  
+    float: left; 
+    margin: 0px 10px 10px 10px;
+}
+.img2{
+    float: right;
+    margin: 0px 10px 10px 10px;
+}
+.img3{
+    float: left;
+    margin: 0px 10px 10px 10px;
+}
+img{
+    width: 600px;
+    height: 271px;
+}
+.text{
+    padding: 5px 5px 5px 5px;
+}
+.return{
+    position: absolute;
+    left: 45%;
+    top: 10px;
+}

@@ -1,0 +1,116 @@
+*{ 
+    margin: 0px; 
+    padding: 0px; 
+    list-style: none;
+}
+#imgbox-loading {
+    position: absolute;
+    top: 0;
+    left: 0;	
+    cursor: pointer;
+    display: none;
+    z-index: 90;
+}
+#imgbox-loading div{
+    background: #FFFFFF;
+    width: 100%;
+    height : 100%;
+}
+#imgbox-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #000000;
+    display: none;
+    z-index: 80;
+}
+.imgbox-wrap {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #FFFFFF;
+    display: none;
+    z-index: 90;
+}
+.imgbox-img {
+    padding: 0;
+    margin: 0;
+    border: none;
+    width: 100%;	
+    height: 100%;
+    vertical-align: top;
+}
+.imgbox-title {	
+    padding-top: 10px;
+    font-size: 11px;
+    text-align: center;
+    font-family: Arial;
+    color: #333333;
+    display: none;
+}
+.imgbox-bg-wrap {
+    position: absolute;
+    padding: 0;
+    margin: 0;
+    display: none;
+}
+.imgbox-bg {
+    position: absolute;
+    width: 20px;	
+    height: 20px;
+}
+#content {
+    position: absolute;
+    left: 2%;
+    top: 20%;
+}
+#img1 {
+    text-align:center;
+    float: left;
+    width: 20%;
+    padding: 2%;
+}
+#img2 {
+    text-align:center;
+    float: left;
+    width: 20%;
+    padding: 2%;
+}
+#img3 {
+    text-align:center;
+    float: left;
+    width: 20%;
+    padding: 2%;
+}
+#img4 {
+    text-align:center;
+    float: left;
+    width: 20%;
+    padding: 2%;
+}
+a {
+    text-decoration: none;
+    font-family: 微软雅黑;
+    font-weight: bold;
+    color: #000000;
+}
+.container .col a p {
+    font-family: 等线;
+    font-weight: bold;
+    text-align: center;
+    color: black;
+    text-overflow: none;
+}
+a img:hover{
+    border:5px solid #49BEB7;
+}
+a:hover{
+    color: #49BEB7;
+}
+.return{
+    position: absolute;
+    left: 45%;
+    top: 550px;
+}

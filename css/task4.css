@@ -1,0 +1,37 @@
+.container{  
+    width: 1080px;  
+    height:600px;  
+    margin-top: 80px; 
+    position:absolute;
+    left: 16%;
+    background: #F9FBFC;
+}    
+.container li{  
+    list-style:none;  
+}  
+  
+.img li{  
+    display: none;  
+}   
+.order{  
+    overflow: hidden;  
+    position: absolute;  
+    bottom: 50px;
+    left: 35%; 
+    color:#FFFFFF;  
+}  
+.order li{  
+    border:#FFFFFF solid 1px;  
+    float: left;  
+    margin: 0px 5px;  
+    padding: 3px 10px;  
+}  
+.numsover{  
+    background-color:#CCFF33;  
+    color: #000000;  
+}
+.return{
+    position: absolute;
+    left: 45%;
+    top: 700px;
+}

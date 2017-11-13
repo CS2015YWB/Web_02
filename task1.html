@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <title>Task1</title>
+        <link rel="stylesheet" href="css/task1.css"/>
+        <script src="js/jquery.min.js"></script>
+        <script src="js/jquery.imgbox.pack.js"></script>
+        <script>
+            $(function(){
+                $("#img1").imgbox({
+                'speedIn': 0,
+                'speedOut': 0,
+                'alignment': 'center',
+                'overlayShow': true,
+                'allowMultiple': false
+                });
+                $("#img2").imgbox({
+                'speedIn': 0,
+                'speedOut': 0,
+                'alignment': 'center',
+                'overlayShow': true,
+                'allowMultiple': false
+                });
+                $("#img3").imgbox({
+                'speedIn': 0,
+                'speedOut': 0,
+                'alignment': 'center',
+                'overlayShow': true,
+                'allowMultiple': false
+                });
+                $("#img4").imgbox({
+                'speedIn': 0,
+                'speedOut': 0,
+                'alignment': 'center',
+                'overlayShow': true,
+                'allowMultiple': false
+                });
+            });
+        </script>
+    </head>
+    <body>
+        <div id="content">
+                <a href="img/1_big.jpg" id="img1">
+                    <img src="img/1.jpg"/>
+                    <p>#Picture1</p>
+                </a>
+                <a href="img/2_big.jpg" id="img2">
+                    <img src="img/2.jpg"/>
+                    <p>#Picture2</p>
+                </a>
+                <a href="img/3_big.jpg" id="img3">
+                    <img src="img/3.jpg"/>
+                    <p>#Picture3</p>
+                </a>
+                <a href="img/4_big.jpg" id="img4">
+                    <img src="img/4.jpg">
+                    <p>#Picture4</p>
+                </a>
+        </div>
+        <div class="return">
+                <a href="index.html"><button>点击返回</button></a>
+        </div>
+    </body>
+</html>

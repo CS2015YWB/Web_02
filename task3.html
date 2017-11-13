@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <title>Task5</title>
+        <link rel="stylesheet" href="css/task3.css"/>
+        <script src="js/jquery-3.2.1.min.js"></script>
+        <script>
+            $(document).ready(function(){
+                $("#tag1").click(function(){
+                    $("#context1").fadeIn(3000);
+                });
+                $("#tag2").click(function(){
+                    $("#context2").fadeIn(3000);
+                });
+                $("#tag3").click(function(){
+                    $("#context3").fadeIn(3000);
+                });
+                $("#tag4").click(function(){
+                    $("#context4").fadeIn(3000);
+                });
+                $("#tag5").click(function(){
+                    $("#context5").fadeIn(3000);
+                });
+            });
+        </script>
+        <script>
+            function opens(obj) {
+                for(var i = 1;i<=5;i++) {
+                    if(i != obj){
+                        document.getElementById("context"+i).style.display="none";
+                    }
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <div class="logo">
+            <img src="img/ccnu.jpg" width="20%" height="20%"/>
+        </div>
+        <div class="nav">
+            <ul class="list">
+                <li><a href="#" id="tag1" onclick="opens(1)">华大概况</a></li>
+                <li><a href="#" id="tag2" onclick="opens(2)">人才培养</a></li>
+                <li><a href="#" id="tag3" onclick="opens(3)">科学研究</a></li>
+                <li><a href="#" id="tag4" onclick="opens(4)">社会服务</a></li>
+                <li><a href="#" id="tag5" onclick="opens(5)">文化传承创新</a></li>
+            </ul>
+        </div>
+        <div class="container">
+            <div id="context1" style="display:none">
+               <img src="img/31.jpeg"/>
+            </div>
+            <div id="context2" style="display:none">
+               <img src="img/32.jpeg"/>
+            </div>
+            <div id="context3" style="display:none">
+                <img src="img/33.jpeg"/>
+            </div>
+            <div id="context4" style="display:none">
+                <img src="img/34.jpeg"/>
+            </div>
+            <div id="context5" style="display:none">
+               <img src="img/35.jpeg"/>
+            </div>            
+        </div>
+        <div class="return">
+                <a href="index.html"><button>点击返回</button></a>
+        </div>
+    </body>
+</html>
